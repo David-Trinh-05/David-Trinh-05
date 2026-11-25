@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" width="100%" alt="Trịnh Nhựt Phát — Robotics · Mobile Robots & UAVs · Embedded Rust"/></p>
+<p align="center"><img src="assets/banner.svg?v=2" width="100%" alt="Trịnh Nhựt Phát — Robotics · Mobile Robots & UAVs · Embedded Rust"/></p>
 
 <p align="center">
   <a href="mailto:phatsuper14785@gmail.com"><img src="https://img.shields.io/badge/Email-phatsuper14785%40gmail.com-0f1729?style=for-the-badge&logo=gmail&logoColor=34d6b0&labelColor=0a0f1c" alt="Email"/></a>
@@ -10,11 +10,11 @@ I build **robots**, from warehouse AMRs to quadrotors, in simulation first, then
 
 ## `$ whoami`
 
-<p align="center"><img src="assets/whoami.svg" width="100%" alt="whoami: Trịnh Nhựt Phát, RAI Lab HCMUTE, Robotics & AI, UAV autonomy, safe RL, embedded Rust"/></p>
+<p align="center"><img src="assets/whoami.svg?v=2" width="100%" alt="whoami: Trịnh Nhựt Phát, RAI Lab HCMUTE, Robotics & AI, UAV autonomy, safe RL, embedded Rust"/></p>
 
 ## 🧭 Engineering focus
 
-<p align="center"><img src="assets/focus.svg" width="100%" alt="Five layers: learning, robotics, flight stack, systems, bare metal"/></p>
+<p align="center"><img src="assets/focus.svg?v=2" width="100%" alt="Five layers: learning, robotics, flight stack, systems, bare metal"/></p>
 
 ## 🛠️ Tech stack
 
@@ -31,16 +31,16 @@ I build **robots**, from warehouse AMRs to quadrotors, in simulation first, then
 
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/David-Trinh-05/perchpilot"><img src="assets/perchpilot.svg" width="100%" alt="PerchPilot"/></a></td>
-<td width="50%"><a href="https://github.com/David-Trinh-05/aisleops-amr"><img src="assets/aisleops.svg" width="100%" alt="AisleOps AMR"/></a></td>
+<td width="50%"><a href="https://github.com/David-Trinh-05/perchpilot"><img src="assets/perchpilot.svg?v=2" width="100%" alt="PerchPilot"/></a></td>
+<td width="50%"><a href="https://github.com/David-Trinh-05/aisleops-amr"><img src="assets/aisleops.svg?v=2" width="100%" alt="AisleOps AMR"/></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/David-Trinh-05/swarm-dashboard-cbf-rl"><img src="assets/swarm.svg" width="100%" alt="Swarm Dashboard"/></a></td>
-<td width="50%"><a href="https://github.com/David-Trinh-05/mini-kv-store"><img src="assets/kvstore.svg" width="100%" alt="mini-kv-store"/></a></td>
+<td width="50%"><a href="https://github.com/David-Trinh-05/swarm-dashboard-cbf-rl"><img src="assets/swarm.svg?v=2" width="100%" alt="Swarm Dashboard"/></a></td>
+<td width="50%"><a href="https://github.com/David-Trinh-05/mini-kv-store"><img src="assets/kvstore.svg?v=2" width="100%" alt="mini-kv-store"/></a></td>
 </tr>
 </table>
 
-<a href="https://github.com/David-Trinh-05/perchpilot"><img src="assets/perch-arch.svg" width="100%" alt="PerchPilot architecture: GPU simulator, PPO, weight export, Rust perch_core, PX4 SITL, Gazebo HoldPad, attachment verifier"/></a>
+<a href="https://github.com/David-Trinh-05/perchpilot"><img src="assets/perch-arch.svg?v=2" width="100%" alt="PerchPilot architecture: GPU simulator, PPO, weight export, Rust perch_core, PX4 SITL, Gazebo HoldPad, attachment verifier"/></a>
 
 <details>
 <summary><b>Smaller Rust tools</b>: telemetry, embedded, CLI</summary>
@@ -72,4 +72,4 @@ I build **robots**, from warehouse AMRs to quadrotors, in simulation first, then
 - [ ] Move from SITL to hardware-in-the-loop for the perching stack
 - [ ] Run `telemetry-frame` on a real MCU over UART
 
-<p align="center"><img src="assets/footer.svg" width="100%" alt="End of log: Simulate it. Verify it. Then fly it."/></p>
+<p align="center"><img src="assets/footer.svg?v=2" width="100%" alt="End of log: Simulate it. Verify it. Then fly it."/></p>

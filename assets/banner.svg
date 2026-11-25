@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+<defs>
+  <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1e2a44" stroke-width="1"/></pattern>
+  <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#0a0f1c"/><stop offset=".45" stop-color="#0a0f1c" stop-opacity=".92"/><stop offset="1" stop-color="#0a0f1c" stop-opacity=".2"/></linearGradient>
+  <style>
+    .trail{stroke-dasharray:6 8;animation:dash 1.6s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-28}}
+    .blink{animation:b 1.2s steps(2) infinite} @keyframes b{50%{opacity:0}}
+  </style>
+</defs>
+<rect width="1200" height="320" rx="16" fill="#0a0f1c"/>
+<rect width="1200" height="320" rx="16" fill="url(#g)"/>
+<rect width="1200" height="320" rx="16" fill="url(#fade)"/>
+<!-- flight path to an inclined plate on a cart -->
+<path id="p" class="trail" d="M720 270 C 800 120, 930 70, 1032 150" fill="none" stroke="#34d6b0" stroke-width="2" opacity=".8"/>
+<g transform="translate(1040 168) rotate(-60)"><rect x="-38" y="-3" width="76" height="6" rx="2" fill="#ffb347"/></g>
+<rect x="990" y="215" width="110" height="22" rx="4" fill="none" stroke="#8b98ad" stroke-width="2"/>
+<circle cx="1012" cy="243" r="7" fill="none" stroke="#8b98ad" stroke-width="2"/><circle cx="1078" cy="243" r="7" fill="none" stroke="#8b98ad" stroke-width="2"/>
+<line x1="1045" y1="215" x2="1045" y2="190" stroke="#8b98ad" stroke-width="2"/>
+<g>
+  <g stroke="#e6edf3" stroke-width="2"><line x1="-12" y1="-12" x2="12" y2="12"/><line x1="-12" y1="12" x2="12" y2="-12"/></g>
+  <g fill="none" stroke="#34d6b0" stroke-width="2"><circle cx="-13" cy="-13" r="6"/><circle cx="13" cy="-13" r="6"/><circle cx="-13" cy="13" r="6"/><circle cx="13" cy="13" r="6"/></g>
+  <animateMotion dur="5s" repeatCount="indefinite" rotate="0" keyPoints="0;1;1" keyTimes="0;0.8;1" calcMode="linear"><mpath href="#p"/></animateMotion>
+</g>
+<!-- text -->
+<text x="64" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#34d6b0" letter-spacing="3">FLIGHT LOG · HCMUTE<tspan class="blink" fill="#34d6b0"> ▌</tspan></text>
+<text x="62" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#e6edf3">Trịnh Nhựt Phát</text>
+<text x="64" y="194" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#8b98ad">Robotics &amp; Embedded Software · UAV Autonomy · Rust</text>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+  <text x="64" y="258" fill="#8b98ad">MODE <tspan fill="#ffb347">PERCH</tspan>   PLATE <tspan fill="#e6edf3">55–70°</tspan>   CART <tspan fill="#e6edf3">0–3 m/s</tspan>   INFER p95 <tspan fill="#e6edf3">0.11 ms</tspan></text>
+</g>
+</svg>

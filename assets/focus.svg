@@ -14,9 +14,9 @@
 <rect x="20" y="178" width="1160" height="72" rx="10" fill="#0f1729" stroke="#1e2a44" stroke-width="2"/>
 <rect x="20" y="178" width="8" height="72" rx="4" fill="#34d6b0"/>
 <text x="52" y="223" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#34d6b0">L4</text>
-<text x="110" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" letter-spacing="2" fill="#e6edf3" font-weight="700">AUTONOMY</text>
-<text x="110" y="236" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#8b98ad">Estimation, navigation, target tracking</text>
-<text x="490" y="223" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#e6edf3">Kalman / EKF · AMCL · Nav2</text>
+<text x="110" y="210" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" letter-spacing="2" fill="#e6edf3" font-weight="700">ROBOTICS</text>
+<text x="110" y="236" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#8b98ad">Mobile robots: map, localize, navigate</text>
+<text x="490" y="223" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#e6edf3">SLAM · AMCL · Nav2 · Kalman / EKF</text>
 <rect x="1046" y="200" width="122" height="30" rx="15" fill="none" stroke="#1e2a44" stroke-width="2"/><text x="1107" y="220" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#8b98ad">perchpilot</text><rect x="895" y="200" width="141" height="30" rx="15" fill="none" stroke="#1e2a44" stroke-width="2"/><text x="965" y="220" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#8b98ad">aisleops-amr</text></g><g class="l" style="animation-delay:0.45s">
 <rect x="20" y="260" width="1160" height="72" rx="10" fill="#0f1729" stroke="#1e2a44" stroke-width="2"/>
 <rect x="20" y="260" width="8" height="72" rx="4" fill="#34d6b0"/>

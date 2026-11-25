@@ -1,12 +1,12 @@
-<p align="center"><img src="assets/banner.svg" width="100%" alt="Trịnh Nhựt Phát — Robotics & Embedded Software · UAV Autonomy · Rust"/></p>
+<p align="center"><img src="assets/banner.svg" width="100%" alt="Trịnh Nhựt Phát — Robotics · Mobile Robots & UAVs · Embedded Rust"/></p>
 
 <p align="center">
   <a href="mailto:phatsuper14785@gmail.com"><img src="https://img.shields.io/badge/Email-phatsuper14785%40gmail.com-0f1729?style=for-the-badge&logo=gmail&logoColor=34d6b0&labelColor=0a0f1c" alt="Email"/></a>
   <img src="https://img.shields.io/badge/RAI_Lab-HCMUTE-0f1729?style=for-the-badge&labelColor=0a0f1c&color=0f1729" alt="RAI Lab HCMUTE"/>
-  <img src="https://img.shields.io/badge/Open_to-Internships-ffb347?style=for-the-badge&labelColor=0a0f1c" alt="Open to internships"/>
+  <img src="https://img.shields.io/badge/Open_to-Robotics_internships-ffb347?style=for-the-badge&labelColor=0a0f1c" alt="Open to internships"/>
 </p>
 
-I build robots and drones in simulation first, then the low-level software that has to run on them reliably. Most of my projects ship with a **reproducible check and a number**: an RMSE against ground truth, a latency percentile, or a crash-recovery test.
+I build **robots**, from warehouse AMRs to quadrotors, in simulation first, then the low-level software that has to run on them reliably. Most of my projects ship with a **reproducible check and a number**: an RMSE against ground truth, a latency percentile, or a crash-recovery test.
 
 ## `$ whoami`
 
@@ -14,7 +14,7 @@ I build robots and drones in simulation first, then the low-level software that 
 
 ## 🧭 Engineering focus
 
-<p align="center"><img src="assets/focus.svg" width="100%" alt="Five layers: learning, autonomy, flight stack, systems, bare metal"/></p>
+<p align="center"><img src="assets/focus.svg" width="100%" alt="Five layers: learning, robotics, flight stack, systems, bare metal"/></p>
 
 ## 🛠️ Tech stack
 
@@ -22,7 +22,7 @@ I build robots and drones in simulation first, then the low-level software that 
 
 | Area | Tools |
 |---|---|
-| **Autonomy** | PX4 (SITL, MAVLink), ROS 2 Jazzy, Nav2, SLAM Toolbox, Gazebo Harmonic, PyTorch, PPO, Kalman / EKF |
+| **Robotics & autonomy** | ROS 2 Jazzy, Nav2, SLAM Toolbox, Gazebo Harmonic, PX4 (SITL, MAVLink), PyTorch, PPO, Kalman / EKF |
 | **Systems** | Rust (`no_std`, Tokio, Axum), C++, Python, FastAPI, MQTT |
 | **Embedded / IoT** | UART framing & CRC, GPIO state machines, ESP32 + WebSocket |
 | **Also** | MATLAB (quadrotor control), TypeScript / React, Linux, Git |

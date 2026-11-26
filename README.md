@@ -1,53 +1,27 @@
-<p align="center"><img src="assets/banner.svg?v=2" width="100%" alt="Trịnh Nhựt Phát — Robotics · Mobile Robots & UAVs · Embedded Rust"/></p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/hero-dark.svg?v=4"><img src="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/hero-light.svg?v=4" width="100%" alt="Trịnh Nhựt Phát — Robotics · Mobile robots & UAVs · Embedded Rust. RAI Lab, HCMUTE."></picture>
 
-<p align="center">
-  <a href="mailto:phatsuper14785@gmail.com"><img src="https://img.shields.io/badge/Email-phatsuper14785%40gmail.com-0f1729?style=for-the-badge&logo=gmail&logoColor=34d6b0&labelColor=0a0f1c" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/RAI_Lab-HCMUTE-0f1729?style=for-the-badge&labelColor=0a0f1c&color=0f1729" alt="RAI Lab HCMUTE"/>
-  <img src="https://img.shields.io/badge/Open_to-Robotics_internships-ffb347?style=for-the-badge&labelColor=0a0f1c" alt="Open to internships"/>
-</p>
+<p align="center"><samp>
+<a href="mailto:phatsuper14785@gmail.com">phatsuper14785@gmail.com</a> · RAI Lab, HCMUTE · Ho Chi Minh City · <b>open to robotics internships</b>
+</samp></p>
 
-I build **robots**, from warehouse AMRs to quadrotors, in simulation first, then the low-level software that has to run on them reliably. Most of my projects ship with a **reproducible check and a number**: an RMSE against ground truth, a latency percentile, or a crash-recovery test.
+### <samp>01 · SELECTED MISSIONS</samp>
 
-## `$ whoami`
+<a href="https://github.com/David-Trinh-05/perchpilot"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/perchpilot-dark.svg?v=4"><img src="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/perchpilot-light.svg?v=4" width="100%" alt="PerchPilot: quadrotor perching on a 55–70° plate on a moving cart; Rust inference p95 0.11 ms"></picture></a>
 
-<p align="center"><img src="assets/whoami.svg?v=2" width="100%" alt="whoami: Trịnh Nhựt Phát, RAI Lab HCMUTE, Robotics & AI, UAV autonomy, safe RL, embedded Rust"/></p>
+<a href="https://github.com/David-Trinh-05/QDrone_Control"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/qdrone-dark.svg?v=4"><img src="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/qdrone-light.svg?v=4" width="100%" alt="QDrone Control: flight control on a real Quanser QDrone with optical-flow assist and Kalman height estimation"></picture></a>
 
-## 🧭 Engineering focus
+<a href="https://github.com/David-Trinh-05/aisleops-amr"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/aisleops-dark.svg?v=4"><img src="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/aisleops-light.svg?v=4" width="100%" alt="AisleOps AMR: ROS 2 warehouse robot, AMCL XY RMSE 5.0 cm, delivery in 20.35 s"></picture></a>
 
-<p align="center"><img src="assets/focus.svg?v=2" width="100%" alt="Five layers: learning, robotics, flight stack, systems, bare metal"/></p>
+<a href="https://github.com/David-Trinh-05/swarm-dashboard-cbf-rl"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/swarm-dark.svg?v=4"><img src="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/swarm-light.svg?v=4" width="100%" alt="Swarm Dashboard: two PX4 drones, CBF + RL safety filter, multi-view EKF tracking"></picture></a>
 
-## 🛠️ Tech stack
+<a href="https://github.com/David-Trinh-05/iot-edge-gateway"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/gateway-dark.svg?v=4"><img src="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/gateway-light.svg?v=4" width="100%" alt="iot-edge-gateway: Rust MQTT edge gateway, 0 of 1,000 events lost through SIGKILL and broker outage, 0 duplicates"></picture></a>
 
-<p align="center"><img src="https://skillicons.dev/icons?i=rust,python,cpp,c,ts,ros,pytorch,linux,ubuntu,react,sqlite,git&theme=dark" alt="Rust, Python, C++, C, TypeScript, ROS, PyTorch, Linux, Ubuntu, React, SQLite, Git"/></p>
-
-| Area | Tools |
-|---|---|
-| **Robotics & autonomy** | ROS 2 Jazzy, Nav2, SLAM Toolbox, Gazebo Harmonic, PX4 (SITL, MAVLink), PyTorch, PPO, Kalman / EKF |
-| **Systems** | Rust (`no_std`, Tokio, Axum), C++, Python, FastAPI, MQTT |
-| **Embedded / IoT** | UART framing & CRC, GPIO state machines, ESP32 + WebSocket |
-| **Also** | MATLAB (quadrotor control), TypeScript / React, Linux, Git |
-
-## 🚀 Selected work
-
-<table>
-<tr>
-<td width="50%"><a href="https://github.com/David-Trinh-05/perchpilot"><img src="assets/perchpilot.svg?v=2" width="100%" alt="PerchPilot"/></a></td>
-<td width="50%"><a href="https://github.com/David-Trinh-05/aisleops-amr"><img src="assets/aisleops.svg?v=2" width="100%" alt="AisleOps AMR"/></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/David-Trinh-05/swarm-dashboard-cbf-rl"><img src="assets/swarm.svg?v=2" width="100%" alt="Swarm Dashboard"/></a></td>
-<td width="50%"><a href="https://github.com/David-Trinh-05/mini-kv-store"><img src="assets/kvstore.svg?v=2" width="100%" alt="mini-kv-store"/></a></td>
-</tr>
-</table>
-
-<a href="https://github.com/David-Trinh-05/perchpilot"><img src="assets/perch-arch.svg?v=2" width="100%" alt="PerchPilot architecture: GPU simulator, PPO, weight export, Rust perch_core, PX4 SITL, Gazebo HoldPad, attachment verifier"/></a>
-
-<details>
-<summary><b>Smaller Rust tools</b>: telemetry, embedded, CLI</summary>
+<details><summary><samp>+ smaller Rust tools</samp></summary>
 
 | Repo | What it proves |
 |---|---|
-| [telemetry-ingest](https://github.com/David-Trinh-05/telemetry-ingest) | Returns HTTP 503 under backpressure; on SIGTERM drains all 2,112 admitted records in order |
+| [mini-kv-store](https://github.com/David-Trinh-05/mini-kv-store) | Checksummed write-ahead log; survives SIGKILL mid-batch, compacts 20 KB of log to 148 B |
+| [telemetry-ingest](https://github.com/David-Trinh-05/telemetry-ingest) | HTTP 503 under backpressure; drains all 2,112 admitted records in order on SIGTERM |
 | [telemetry-frame](https://github.com/David-Trinh-05/telemetry-frame) | `no_std`, zero-dependency UART framing + CRC-16; builds for `thumbv6m-none-eabi` |
 | [button-debounce](https://github.com/David-Trinh-05/button-debounce) | Non-blocking GPIO debounce state machine for bare-metal |
 | [http-pulse](https://github.com/David-Trinh-05/http-pulse) | Bounded concurrent HTTP health checks for deploy pipelines |
@@ -55,21 +29,16 @@ I build **robots**, from warehouse AMRs to quadrotors, in simulation first, then
 
 </details>
 
-## 📐 How I work
+### <samp>02 · SYSTEMS MAP</samp>
 
-| | Principle | Where you can see it |
-|---|---|---|
-| 🛑 | **Gate before you actuate.** Nothing powers down or takes control until a check passes. | PerchPilot verifies attachment before motors-off · Swarm keeps OFFBOARD inactive behind readiness gates |
-| 📏 | **Measure against ground truth.** A demo without a number is a video. | AisleOps scores AMCL at 5.0 cm RMSE against Gazebo pose |
-| 💥 | **Assume the crash.** Kill it mid-write and check what survives. | mini-kv-store SIGKILL recovery · telemetry-ingest ordered drain on SIGTERM |
-| 🔁 | **Port it and prove parity.** | PerchPilot's Python policy node rewritten in Rust: output parity ≤ 5e-6 |
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/systems-dark.svg?v=4"><img src="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/systems-light.svg?v=4" width="100%" alt="Five layers I work across: learning (PPO, CBF-RL), robotics (ROS 2, Nav2, SLAM, EKF), flight stack (PX4, MAVLink, Gazebo), systems (Rust, Tokio, Axum, MQTT), bare metal (no_std, UART, CRC, GPIO)"></picture>
 
-## 📓 Flight log
+### <samp>03 · OPERATING PRINCIPLES</samp>
 
-- [x] Rewrote PerchPilot's onboard node in Rust (`r2r`), matching the Python node to 5e-6
-- [x] Replaced learned depth in the swarm follow-target with bearing-only multi-view EKF
-- [x] Nav2 delivery mission on a saved SLAM map, scored against Gazebo ground truth
-- [ ] Move from SITL to hardware-in-the-loop for the perching stack
-- [ ] Run `telemetry-frame` on a real MCU over UART
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/principles-dark.svg?v=4"><img src="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/principles-light.svg?v=4" width="100%" alt="Gate before you actuate. Measure against ground truth. Assume the crash. Port it, then prove parity."></picture>
 
-<p align="center"><img src="assets/footer.svg?v=2" width="100%" alt="End of log: Simulate it. Verify it. Then fly it."/></p>
+### <samp>04 · FLIGHT LOG</samp>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/flight-log-dark.svg?v=4"><img src="https://raw.githubusercontent.com/David-Trinh-05/David-Trinh-05/main/assets/flight-log-light.svg?v=4" width="100%" alt="Latest commits across my repositories and what comes next"></picture>
+
+<p align="center"><sub><samp>simulate it · verify it · then fly it</samp></sub></p>
